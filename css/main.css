@@ -1,0 +1,331 @@
+body{
+	font-size: 16px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+a{
+	color: black;
+}
+img{
+	max-width: 100%;
+}
+body{
+	
+	display: grid;
+	grid-template-areas: 
+	"fejlec"
+	"fooldal"
+	"lablec";
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 100vh;
+	min-width: 800px;
+	width: 100%;
+ }
+header{
+	
+	background: url("header.jpg");
+    grid-area: "fejlec";
+    line-height: 2rem;
+    font-size: 0.95rem;
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+ }
+main{
+	grid-area: "fooldal";
+	position: relative;
+	background-color: rgb(240,212,180)
+
+    
+ }
+footer{
+	grid-area: "lablec";
+	bottom: 0;
+	padding-bottom: 1%;
+	background-color: rgb(44,219,213);
+    background: url("header.jpg");
+    text-align: center;
+
+
+ }
+ .linkek{
+
+ 	color: rgb(230,200,150);
+ 	text-decoration: none;
+    font-size: 32px;
+    text-shadow: 1px 1px gray;
+    margin: 0 5%;
+ }
+ a:hover{
+ 	color: white;
+ }
+ #insta{
+ 	max-height: 50px;
+ 	margin-top: 20px;
+ 	bottom: 20px;
+
+ }
+ #nev{
+    color: white;
+    
+
+ }
+ .felso{
+   text-align: center;
+   color: white;
+
+ }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.felso{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 12px;
+
+}
+.szoveg{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+line-height: 2.2rem;
+
+
+
+}
+.foci{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-bottom: 30px;
+margin-left: 50px;
+margin-top: 12px;
+
+}
+.focisz{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+
+}
+#mlsz{
+	max-height: 130px;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#siofok{
+	max-height: 130px;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fuzfo{
+	max-height: 130px;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#en{
+max-height: 35rem;
+float: center;
+	margin-bottom: 100px; 
+	 margin: 50px;
+	 border-style: none;
+}
+.doku{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-bottom: 30px;
+margin-left: 50px;
+margin-top: 12px;
+
+}
+.leir{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+
+}
+#vazlat{
+max-height: 800px;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.row img:hover{
+	opacity: 75%
+}
+.felep{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+line-height: 2.2rem;
+}
+.kezdes{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.nehez{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.n{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.n2{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.sorolas{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 150px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.fo{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+
+}
+.elem{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.fej{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.fejsz{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.oldal{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.mainsz{
+color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.lab{
+color: brown;
+ 	text-decoration: none;
+    font-size: 40px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
+.labsz{
+	color: brown;
+ 	text-decoration: none;
+    font-size: 20px;
+text-align: left;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+line-height: 2.2rem;
+}
